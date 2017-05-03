@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 5a73101dbbd4a4b6daedd53259cfb2ac
+timeCreated: 1478602898
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Oshkosh Wheel
+    100004: Oshkosh Wheel.001
+    100006: Oshkosh Wheel.002
+    100008: Oshkosh Wheel.003
+    100010: Oshkosh Wheel.012
+    100012: Oshkosh Wheel.013
+    100014: Oshkosh Wheel.014
+    100016: Oshkosh Wheel.015
+    100018: SketchUp_033
+    400000: //RootNode
+    400002: Oshkosh Wheel
+    400004: Oshkosh Wheel.001
+    400006: Oshkosh Wheel.002
+    400008: Oshkosh Wheel.003
+    400010: Oshkosh Wheel.012
+    400012: Oshkosh Wheel.013
+    400014: Oshkosh Wheel.014
+    400016: Oshkosh Wheel.015
+    400018: SketchUp_033
+    2300000: Oshkosh Wheel
+    2300002: Oshkosh Wheel.001
+    2300004: Oshkosh Wheel.002
+    2300006: Oshkosh Wheel.003
+    2300008: Oshkosh Wheel.012
+    2300010: Oshkosh Wheel.013
+    2300012: Oshkosh Wheel.014
+    2300014: Oshkosh Wheel.015
+    2300016: SketchUp_033
+    3300000: Oshkosh Wheel
+    3300002: Oshkosh Wheel.001
+    3300004: Oshkosh Wheel.002
+    3300006: Oshkosh Wheel.003
+    3300008: Oshkosh Wheel.012
+    3300010: Oshkosh Wheel.013
+    3300012: Oshkosh Wheel.014
+    3300014: Oshkosh Wheel.015
+    3300016: SketchUp_033
+    4300000: Oshkosh Wheel.015
+    4300002: SketchUp_033
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

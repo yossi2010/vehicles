@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 6ef6a0cede0904c9eb372893c3c1e496
+timeCreated: 1480318930
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cab
+    100002: Cab COVER
+    100004: Camera
+    100006: Doors
+    100008: Equipment01
+    100010: Equipment02
+    100012: Equipment03
+    100014: Gas Tank
+    100016: HEMTT Frame
+    100018: //RootNode
+    100020: Point.002
+    100022: Spare Tires
+    100024: Steering Wheel
+    100026: Wheels_Fore.001
+    100028: Wheels_Left_1
+    100030: Wheels_Left_2
+    100032: Wheels_Left_3
+    100034: Wheels_Left_4
+    100036: Wheels_Rear
+    100038: Wheels_Right_1
+    100040: Wheels_Right_2
+    100042: Wheels_Right_3
+    100044: Wheels_Right_4
+    100046: Wipers
+    100048: Wheels_Right_4.001
+    100050: Cab_MeshPart0
+    100052: Cab_MeshPart1
+    100054: HEMTT Frame.001
+    100056: HEMTT Frame.002
+    100058: Cube
+    100060: Wheels_Right_1.001
+    400000: Cab
+    400002: Cab COVER
+    400004: Camera
+    400006: Doors
+    400008: Equipment01
+    400010: Equipment02
+    400012: Equipment03
+    400014: Gas Tank
+    400016: HEMTT Frame
+    400018: //RootNode
+    400020: Point.002
+    400022: Spare Tires
+    400024: Steering Wheel
+    400026: Wheels_Fore.001
+    400028: Wheels_Left_1
+    400030: Wheels_Left_2
+    400032: Wheels_Left_3
+    400034: Wheels_Left_4
+    400036: Wheels_Rear
+    400038: Wheels_Right_1
+    400040: Wheels_Right_2
+    400042: Wheels_Right_3
+    400044: Wheels_Right_4
+    400046: Wipers
+    400048: Wheels_Right_4.001
+    400050: Cab_MeshPart0
+    400052: Cab_MeshPart1
+    400054: HEMTT Frame.001
+    400056: HEMTT Frame.002
+    400058: Cube
+    400060: Wheels_Right_1.001
+    2300000: Cab
+    2300002: Cab COVER
+    2300004: Doors
+    2300006: Equipment01
+    2300008: Equipment02
+    2300010: Equipment03
+    2300012: Gas Tank
+    2300014: HEMTT Frame
+    2300016: Spare Tires
+    2300018: Steering Wheel
+    2300020: Wheels_Fore.001
+    2300022: Wheels_Left_1
+    2300024: Wheels_Left_2
+    2300026: Wheels_Left_3
+    2300028: Wheels_Left_4
+    2300030: Wheels_Rear
+    2300032: Wheels_Right_1
+    2300034: Wheels_Right_2
+    2300036: Wheels_Right_3
+    2300038: Wheels_Right_4
+    2300040: Wipers
+    2300042: Wheels_Right_4.001
+    2300044: Cab_MeshPart0
+    2300046: Cab_MeshPart1
+    2300048: HEMTT Frame.001
+    2300050: HEMTT Frame.002
+    2300052: Cube
+    2300054: Wheels_Right_1.001
+    3300000: Cab
+    3300002: Cab COVER
+    3300004: Doors
+    3300006: Equipment01
+    3300008: Equipment02
+    3300010: Equipment03
+    3300012: Gas Tank
+    3300014: HEMTT Frame
+    3300016: Spare Tires
+    3300018: Steering Wheel
+    3300020: Wheels_Fore.001
+    3300022: Wheels_Left_1
+    3300024: Wheels_Left_2
+    3300026: Wheels_Left_3
+    3300028: Wheels_Left_4
+    3300030: Wheels_Rear
+    3300032: Wheels_Right_1
+    3300034: Wheels_Right_2
+    3300036: Wheels_Right_3
+    3300038: Wheels_Right_4
+    3300040: Wipers
+    3300042: Wheels_Right_4.001
+    3300044: Cab_MeshPart0
+    3300046: Cab_MeshPart1
+    3300048: HEMTT Frame.001
+    3300050: HEMTT Frame.002
+    3300052: Cube
+    3300054: Wheels_Right_1.001
+    4300000: HEMTT Frame
+    4300002: Wheels_Fore.001
+    4300004: Wheels_Rear
+    4300006: Spare Tires
+    4300008: Gas Tank
+    4300010: Equipment03
+    4300012: Equipment02
+    4300014: Equipment01
+    4300016: Cab COVER
+    4300018: Cab
+    4300020: Doors
+    4300022: Steering Wheel
+    4300024: Wipers
+    4300026: Wheels_Right_1
+    4300028: Wheels_Right_2
+    4300030: Wheels_Left_2
+    4300032: Wheels_Left_1
+    4300034: Wheels_Left_3
+    4300036: Wheels_Left_4
+    4300038: Wheels_Right_4
+    4300040: Wheels_Right_3
+    4300042: Wheels_Right_4.001
+    4300044: HEMTT Frame.002
+    4300046: HEMTT Frame.001
+    4300048: Cab_MeshPart0
+    4300050: Cab_MeshPart1
+    4300052: Cube
+    4300054: Wheels_Right_1.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

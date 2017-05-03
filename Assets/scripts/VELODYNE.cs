@@ -1,0 +1,51 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class VELODYNE : MonoBehaviour
+{
+    Transform myref;
+    public float timescale = 1;
+    public Transform emitter;
+    Vector3 shootLaserDir = Vector3.zero;
+    public float Range = 10, StartVerticalAngle = 2, VertAng = 26.8f, HorAng = 360, lasercount = 64, hz = 10, HorRes = 0.08f,  NoOfScansPerFrame;
+
+
+
+    float ang = 0;
+    // Use this for initialization
+    void Start()
+    {
+        myref = transform;
+        NoOfScansPerFrame = (HorAng / HorRes) * hz *Time.fixedDeltaTime;
+		currentangle = -HorAng/2; 
+    }
+    float currentangle;
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        if (currentangle > HorAng/2) {currentangle = -HorAng/2; myref.localEulerAngles=new Vector3(0, -HorAng/2, 0);}
+        for (int i = 0; i < NoOfScansPerFrame; i++)
+        { // multiple horizontal scans in 1 frame in order to achieve the full circle
+		if (currentangle > HorAng/2) {currentangle = -HorAng/2; myref.localEulerAngles=new Vector3(0, -HorAng/2, 0);}
+            emitter.localEulerAngles = new Vector3(-StartVerticalAngle, 0, 0);
+            for (int j = 0; j < lasercount; j++) //the lazer column
+            {
+                ang = (StartVerticalAngle + j * VertAng / (lasercount-1));
+				emitter.localEulerAngles = new Vector3(ang, 0, 0);
+                shootLaserDir = (emitter.forward);
+                RaycastHit hit;
+                // Physics.Raycast(myref.position,shootLaserDir,out hit,Range);
+                if (Physics.Raycast(myref.position, shootLaserDir, out hit, Range)) Debug.DrawLine(hit.point, myref.position, Color.red, 0.3f, true);
+                else Debug.DrawLine(myref.position,myref.position+shootLaserDir*Range,Color.blue,0.3f,true);
+		
+                
+            }
+			 currentangle +=HorRes;
+             myref.localEulerAngles=new Vector3(0, currentangle, 0);
+
+        }
+
+        Time.timeScale = timescale;
+        //debugging timescale	
+    }
+}
