@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\Scripts\MovementControl.cs" />
+     <Compile Include="Assets\BobcatArm.cs" />
      <Compile Include="Assets\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Barrel_Control_CS.cs" />
      <Compile Include="Assets\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Break_Object_CS.cs" />
      <Compile Include="Assets\Kawaii_Tanks_Project\Kawaii_Tanks_Assets\Scripts\Bullet_Nav_CS.cs" />
