@@ -45,7 +45,7 @@ public class Wheel_Control_CS : MonoBehaviour {
 	void Start () {
 		this.gameObject.layer = 11 ; // Layer11 >> for MainBody.
 		thisRigidbody = GetComponent < Rigidbody > () ;
-		thisRigidbody.solverIterationCount = solverIterationCount ;
+		thisRigidbody.solverIterations = solverIterationCount ;
 		BroadcastMessage ( "Get_Wheel_Control" , this , SendMessageOptions.DontRequireReceiver ) ; // Send this reference to all the "Wheel_Rotate".
 	}
 	

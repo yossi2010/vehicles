@@ -25,10 +25,10 @@ public class BobcatDriving : MonoBehaviour
         }
     }
 
-    private void DriveBobcat(float throttle, float steering)
+    public void DriveBobcat(float throttle, float steering)
     {
-        float LeftVel = Throttle * MaxSpeed / Radius + (Steering * MaxRot / Radius) * Width / 2;
-        float RightVel = Throttle * MaxSpeed / Radius - (Steering * MaxRot / Radius) * Width / 2;
+        float LeftVel = throttle * MaxSpeed / Radius + (steering * MaxRot / Radius) * Width / 2;
+        float RightVel = throttle * MaxSpeed / Radius - (steering * MaxRot / Radius) * Width / 2;
         LeftVel *= Mathf.Rad2Deg;
         RightVel *= Mathf.Rad2Deg;
         for (int i = 0; i < LeftWheels.Length; i++)
